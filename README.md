@@ -13,7 +13,7 @@ The project is a small web service written with **Flask**. It is completely wrap
 - docker-compose
 - python > 3.5
 
-The other dependencies, along with their versions, are listed in the requirements.txt file.
+The other dependencies, along with their versions, are listed in the **requirements.txt** file.
 
 ### Installation
 
