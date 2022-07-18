@@ -2,7 +2,7 @@
 
 The goal of the project is to solve a test task to filter incorrect points in the kml file and calculate the total distance.
 
-![alt text](https://github.com/ivanelgran23/vehicle_track/tree/master/app/app/static/image/service.png?raw=true)
+![service](https://user-images.githubusercontent.com/62716305/179479091-018cb6d0-1ecf-44d6-8412-ddbeda2a50f7.png)
 
 ## Getting Started
 
