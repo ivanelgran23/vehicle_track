@@ -23,7 +23,6 @@ def upload_file():
     if request.method == "POST":
         kml_file = TextIOWrapper(request.files["file"])
         start_points, points = KmlHandler().get_points(kml_file)
-        print(start_points)
         with Session() as db:
             track = crud.create_track(db, points, start_points)
             track_id = track.track_id
@@ -45,6 +44,7 @@ def apply_filters():
         distance = get_distance(points)
         folium_map = build_map_with_track(start_points, points)
         folium_map.save(PROJECT_DIR / "templates/map.html")
+        
         return jsonify({'distance': distance})
 
 @app.route("/map")
